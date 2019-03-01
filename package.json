@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-plugin-pangu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A VuePress plugin which inserts whitespace into your markdown files.",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shigma/vuepress-plugin-pangu.git"
+  },
+  "dependencies": {
+    "markdown-it-pangu": "^1.0.1"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-plugin",
+    "spacing",
+    "pangu",
+    "markdown"
+  ]
+}
