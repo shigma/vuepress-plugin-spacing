@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`spacing inline-code.md 1`] = `<p>demo <code>code</code> demo</p>`;
+
+exports[`spacing insert-space.md 1`] = `
+<p>中文 English</p>
+<p>English 中文</p>
+<p>中<em>文 Eng</em>lish</p>
+<p>Eng<em>lish 中</em>文</p>
+<p>中文 <em>English</em></p>
+<p><em>English</em> 中文</p>
+<p><em>中文</em> English</p>
+<p>English <em>中文</em></p>
+<p><em>中文</em> <s><strong>Eng</strong>lish</s></p>
+<p><em>中<strong>文</strong></em> <s>English</s></p>
+<p>中文 English</p>
+<p>English 中文</p>
+<p>中<em>文 Eng</em>lish</p>
+<p>Eng<em>lish 中</em>文</p>
+<p>中文<em>English</em></p>
+<p><em>English</em> 中文</p>
+<p><em>中文</em> English</p>
+<p>English<em>中文</em></p>
+<p><em>中文</em><s><strong>Eng</strong>lish</s></p>
+<p><em>中<strong>文</strong></em><s>English</s></p>
+`;
+
+exports[`spacing punctuation-en.md 1`] = `
+<p>大家好, 我是作者.</p>
+<p>大家好, 我是作者.</p>
+<p>大家好 a,b 我是作者.</p>
+<p>大家好 a, b 我是作者.</p>
+`;
+
+exports[`spacing punctuation-zh.md 1`] = `
+<p>大家好，我是作者。</p>
+<p>大家好，我是作者。</p>
+<p>大家好 a,b 我是作者。</p>
+<p>大家好 a，b 我是作者。</p>
+`;
