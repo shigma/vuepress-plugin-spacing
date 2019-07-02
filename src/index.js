@@ -1,4 +1,3 @@
-const { spacing, spacingBetween } = require('./utils')
 const panguPlugin = require('./markdown')
 
 module.exports = (options, context) => ({
